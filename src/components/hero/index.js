@@ -47,7 +47,7 @@ class Hero extends Component {
                         <div className="wpo-happy-client">
                             <div className="wpo-happy-client-text">
                                 <h3>52+</h3>
-                                <p>Success Projects</p>
+                                <p>Successful Projects</p>
                             </div>
                             <div className="wpo-happy-client-img">
                                 <ul className="wpo-happy-client-slide">

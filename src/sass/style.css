@@ -2552,6 +2552,14 @@ a:hover {
           box-shadow: 0 -5px 15px #086ad84a;
 }
 
+.navbar-brand img {
+  max-width: 150px;
+}
+
+.fixed-navbar.animated.fadeInDown.active .navbar-brand img {
+  max-width: 130px;
+}
+
 /*--------------------------------------------------------------
 3. content
 --------------------------------------------------------------*/
@@ -3688,6 +3696,8 @@ hero slider s2
   text-align: center;
   max-width: 505px;
   margin: 0 auto;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
 .wpo-about-section .wpo-about-wrap .wpo-about-img img {
@@ -3770,6 +3780,7 @@ hero slider s2
   background: #fff;
   padding: 50px;
   margin-bottom: 30px;
+  min-height: 420px;
 }
 
 .wpo-service-section .wpo-service-item .wpo-service-icon {
@@ -4044,9 +4055,8 @@ hero slider s2
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .wpo-gallery-section .wpo-gallery-container .grid {

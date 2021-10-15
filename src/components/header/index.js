@@ -22,15 +22,15 @@ export default class Header extends Component {
     
     
     render(){
-        const {isSearchShow} = this.state;
+        // const {isSearchShow} = this.state;
 
-        const SubmitHandler = (e) =>{
-            e.preventDefault()
-         }
+        // const SubmitHandler = (e) =>{
+        //     e.preventDefault()
+        //  }
 
-         const ClickHandler = () =>{
-            window.scrollTo(10, 0);
-         }
+        //  const ClickHandler = () =>{
+        //     window.scrollTo(10, 0);
+        //  }
        return(	
         <header id="header" className="wpo-site-header">
             <nav className="navigation navbar navbar-expand-lg navbar-light">
@@ -43,7 +43,7 @@ export default class Header extends Component {
                         </div>
                         <div className="col-lg-3 col-md-6 col-6">
                             <div className="navbar-header">
-                                <Link to="home" spy={true} smooth={true} className="navbar-brand"><img style={{"max-width": "150px"}} src={Logo}
+                                <Link to="home" spy={true} smooth={true} className="navbar-brand"><img  src={Logo}
                                         alt=""/></Link>
                             </div>
                         </div>

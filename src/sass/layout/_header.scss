@@ -1233,3 +1233,12 @@
     box-shadow: 0 -5px 15px #086ad84a;
 }
 
+.navbar-brand{
+	img{
+		max-width: 150px;
+	}
+}
+
+.fixed-navbar.animated.fadeInDown.active .navbar-brand img{
+	max-width: 130px;
+}

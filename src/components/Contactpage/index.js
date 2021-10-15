@@ -1,9 +1,7 @@
 import React from 'react';
 import ContactForm from '../ContactFrom'
 
-import cnt1 from '../../images/icon/home.svg'
-import cnt2 from '../../images/icon/mail-2.svg'
-import cnt3 from '../../images/icon/app.svg'
+
 
 const Contactpage = () => {
 
